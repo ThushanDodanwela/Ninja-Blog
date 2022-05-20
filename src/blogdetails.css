@@ -1,0 +1,58 @@
+.blog-details {
+  margin: 50px;
+}
+
+.btn-back {
+  background-color: transparent;
+  color: darkblue;
+  border: 2px solid darkblue;
+
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 5px;
+  width: 70px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn-delete {
+  background-color: transparent;
+  color: red;
+  border: 2px solid red;
+  margin-top: 60px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 5px;
+  width: 70px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.btn-delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn-back:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+h4 {
+  margin-left: 20px;
+  font-weight: 200;
+}
+
+.blog-body {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 1000px;
+  display: flex;
+  max-width: max-content;
+  text-align: justify;
+}

@@ -1,0 +1,60 @@
+.create_Title {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.form {
+  width: 500px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 200px;
+  align-content: center;
+}
+
+.form label {
+  text-align: left;
+
+  margin-top: 100px;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.form textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  height: 200px;
+}
+
+.btn-submit {
+  margin-top: 30px;
+  align-items: left;
+  background-color: transparent;
+  padding: 5px;
+  border: 2px solid darkblue;
+  font-weight: 300;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  border-color: white;
+}
